@@ -1,17 +1,20 @@
 %% -*- erlang -*-
-{application, 'lfe-elli-example',
+{application, lfe_elli_example,
  [
   %% A quick description of the application.
-  {description, "My project description..."},
+  {description, "LFE / Elli example application."},
 
   %% The version of the application
-  {vsn, "0.0.1"},
+  {vsn, "0.1.0"},
 
   %% All modules used by the application.
   {modules,
    [
+    base_dtl,
+    index_dtl,
     'lfe-elli-example-app',
-    'lfe-elli-example-server',
+    'lfe-elli-example-handler-index',
+    'lfe-elli-example-router',
     'lfe-elli-example-sup'
    ]},
 
@@ -24,7 +27,9 @@
   {applications,
    [
     kernel,
-    stdlib
+    stdlib,
+    lfe,
+    erlydtl
    ]},
 
   %% OTP application loader will load, but not start, included apps. Again
