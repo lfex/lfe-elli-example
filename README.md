@@ -2,8 +2,8 @@
 
 [![Build Status][Travis badge]][Travis link]
 
-[Travis badge]: https://travis-ci.org/dry/lfe-elli-example.svg?branch=master
-[Travis link]: https://travis-ci.org/dry/lfe-elli-example
+[Travis badge]: https://travis-ci.org/lfex/lfe-elli-example.svg?branch=master
+[Travis link]: https://travis-ci.org/lfex/lfe-elli-example
 
 This is a very simple application demonstrating the use of the [Elli] webserver
 and [LFE].
