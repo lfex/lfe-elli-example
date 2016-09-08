@@ -1,10 +1,7 @@
-deps
+*.beam
+*.dump
 *.sublime-project
 *.sublime-workspace
-*.beam
 .eunit
-debug-*
-ebin/*
-bin/expm
-*.dump
-.rebar
+_build/
+deps

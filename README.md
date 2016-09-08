@@ -1,34 +1,21 @@
-[![Build Status](https://travis-ci.org/dry/lfe-elli-example.svg?branch=master)](https://travis-ci.org/dry/lfe-elli-example)
-
 # LFE / Elli Example Application
 
-This is a very simple application demonstrating the use of the [Elli](https://github.com/knutin/elli) webserver and Lisp Flavored Erlang. This example was created with LFE v0.8.
+[![Build Status][Travis badge]][Travis link]
 
-## Running It
+[Travis badge]: https://travis-ci.org/lfex/lfe-elli-example.svg?branch=master
+[Travis link]: https://travis-ci.org/lfex/lfe-elli-example
 
-The skeleton and supporting files for this application were generated with [lfetool](https://github.com/lfe/lfetool) so make sure that's installed. The Makefile has a shell target so all you have to do is:
+This is a very simple application demonstrating the use of the [Elli] webserver
+and [LFE].
 
-```shell
-    $ make shell
-```
+This example was created with [lfe-1.1.1].
 
-This will fetch the dependencies, compile and start the LFE shell, which should look something like this:
+[Elli]: https://github.com/knutin/elli
+[LFE]: https://github.com/rvirding/lfe
+[lfe-1.1.1]: https://hex.pm/packages/lfe/1.1.1
 
-```shell
-    Erlang R16B03-1 (erts-5.10.4) [source] [64-bit] [smp:8:8] ...
+## Running
 
-    LFE Shell V5.10.4 (abort with ^G)
-    >
-```
-
-You can then start the application is the same way that you would an Erlang one:
-
-```shell
-     Erlang R16B03-1 (erts-5.10.4) [source] [64-bit] [smp:8:8] ...
-
-    LFE Shell V5.10.4 (abort with ^G)
-    > (application:start 'lfe-elli-example)
-    ok
-```
+**FIXME**: Flesh this out.
 
 Then go to [http://localhost:3000](http://localhost:3000).
